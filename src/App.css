@@ -52,6 +52,6 @@ body {
   transform: rotateY(180deg);
 }
 
-.card-outer:hover .card {
-  transform: rotateY(0);
+.card-outer.flipped .card {
+  transform: rotateY(0deg);
 }
