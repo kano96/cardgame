@@ -5,12 +5,16 @@
 body {
   background-color: #123;
 }
+.App {
+  display: flex;
+  justify-content: center;
+}
 .board {
   width: calc(100vh - 40px);
   max-width: calc(100vw - 40px);
   display: grid;
   grid-gap: 10px;
-  margin: 20px auto;
+  margin: 20px 50px;
   grid-template-columns: repeat(5, 1fr);
 }
 
@@ -54,4 +58,9 @@ body {
 
 .card-outer.flipped .card {
   transform: rotateY(0deg);
+}
+.stats {
+  color: white;
+  margin-top: 50px;
+  font-size: 2em;
 }
